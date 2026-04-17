@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>추천받아요</title>
+        <style>
+            html, body { margin-left : 10px; margin-right : 10px; padding : 0; background-color: white; color: black;}
+            header { width : 100%; height : 15%;}
+            h1 { text-align: center; color: darkblue;}
+            h2 { color: blueviolet;}
+            h3 { color : darkred;}
+            span { color: brown; font-size: 18px;}
+            article { color: black; font-size: 15px;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><b>제목추천좀</b></h1>
+        </header>
+        <nav>
+            <h2><b>목차</b></h2>
+            <ul>
+                <li><a href="#chap1">1번</a><br></li>
+                <li><a href="#chap2">2번</a><br></li>
+                <li><a href="#chap3">3번</a><br></li>
+                <li><a href="#chap4">4번</a><br></li>
+                <li><a href="#chap5">5번</a><br></li>
+                <li><a href="#chap6">TMI</a></li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <h3 id = "chap1"><b>1번</b></h3>
+                <p>테스트하기 위해 <span>아무렇게나 긴 글</span>을 작성하고 싶었으나 실패한 글</p>
+                <img src = "pictures/1.png" width = "100" height = "100">
+                <form>
+                    닉네임 : <input type = "text" value = ""><br>
+                    비밀번호 : <input type = "password" value = "" maxlength = "12"><br>
+                    하고싶은 말 : <br><textarea cols = "80" rows = "10">쓰는 란</textarea>
+                </form>
+            </article>
+
+            <article>
+                <h3 id = "chap2"><b>2번</b></h3>
+                <p>테스트하기 위해 <span>아무렇게나 긴 글</span>을 작성하고 싶어 쓴 글</p>
+                <img src = "pictures/2.png" width = "100" height = "100"><br>
+                자신의 성향 : <input type = "text" list = "tendency">
+                <datalist id = "tendency">
+                    <option value = "이성애자"></option>
+                    <option value = "동성애자"></option>
+                    <option value = "양성애자"></option>
+                    <option value = "무성애자"></option>
+                </datalist>
+            </article>
+
+            <article>
+                <h3 id = "chap3"><b>3번</b></h3>
+                <p>테스트하기 위해 <span>세번째로 긴 글</span>을 작성하고 싶었으나 실패한 글</p>
+                <img src = "pictures/3.png" width = "100" height = "100">
+            </article>
+
+            <article>
+                <h3 id = "chap4"><b>4번</b></h3>
+                <p>테스트하기 위해 <span>아무렇게나 긴 글</span>을 작성하는 것에 궁금한 글</p>
+                <img src = "pictures/4.png" width = "100" height = "100">
+            </article>
+
+            <article>
+                <h3 id = "chap5"><b>5번</b></h3>
+                <p>테스트하기 위해 <span>아무렇게나 작성한 글</span></p>
+                <img src = "pictures/5.png" width = "100" height = "100">
+            </article>
+
+            <article>
+                <h3 id = "chap6"><b>TMI</b></h3>
+                <details>
+                    <summary>TMI</summary>
+                    <p>
+                        금일 2026년 4월 17일 기준 오전 1시에 작성자는 <span><b>누구</b></span>와는 다르게 첫 엔드시티에서 겉날개를 구했다.<br>
+                        이걸 왜 못 구하는 지 궁금할 지경이라는 소문이 있다. 
+                    </p>
+                </details>
+            </article>
+        </section>
+
+        <footer>
+            <h5>@Copyright by 숭실고등학교 4학년 재학 중인 김민석</h5>
+        </footer>
+    </body>
+</html>
